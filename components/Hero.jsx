@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import heroImg from "@/assets/images/heroImage.svg"
+import heroImg from "@/assets/images/hero-img.png"
 
 const Hero = () => {
     return (

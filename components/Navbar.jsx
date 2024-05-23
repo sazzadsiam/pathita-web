@@ -24,8 +24,6 @@ const Navbar = () => {
                 </span>
             </div>
 
-
-
             <ul className={`absolute md:static left-0 ${menu ? 'top-[74px]' : 'top-[-300px]'} w-full md:w-auto flex flex-col md:flex-row md:items-center py-5 md:py-0 px-6 md:px-0 gap-x-10 gap-y-6 md:gap-y-0 font-primary text-sm bg-white drop-shadow-lg md:drop-shadow-none transition-all ease-in duration-300`}>
                 <Link href={'#'} className="navLink">ব্লগ</Link>
                 <Link href={'#'} className="navLink">বই</Link>
